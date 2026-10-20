@@ -1,19 +1,28 @@
 # UTS_GRAF-SAINS-DATA
 Repository ini berisi dokumentasi dan implementasi Ujian Tengah Semester (UTS) mata kuliah Graf Sains Data. Proyek ini menggunakan dataset RetailRocket E-commerce untuk membangun graf interaksi pengguna dan produk serta menerapkan metode rekomendasi berbasis kemiripan.
 
+# Identitas
+Nama: Putri Sofiyatus Salwa
+
+Kelas: 2024A
+
+NIM: 24031554112
+
+Mata Kuliah: Graf Sains Data
+
 **Deskripsi Proyek**
 
-Proyek ini berfokus pada pemodelan data e-commerce dalam bentuk graf menggunakan Neo4j, dilanjutkan dengan analisis menggunakan Vector Space Model (VSM), cosine similarity, dan metode K-Nearest Neighbors (KNN) untuk menghasilkan rekomendasi item.
+Proyek berfokus pada pemodelan data e-commerce dalam bentuk graf menggunakan Neo4j, dilanjutkan dengan analisis menggunakan Vector Space Model (VSM), cosine similarity, dan metode K-Nearest Neighbors (KNN) untuk menghasilkan rekomendasi item.
 
 **Dataset**
 
-Dataset yang digunakan adalah RetailRocket E-commerce Dataset, yang berisi data interaksi pengguna terhadap item, seperti melihat produk dan menambahkan produk ke keranjang.
+Dataset yang digunakan adalah RetailRocket E-commerce Dataset, yang berisi catatan interaksi pengguna terhadap item, seperti melihat produk (view) dan menambahkan produk ke keranjang (add to cart).
 
-File utama: events.csv
+Dataset asli events.csv tidak disertakan langsung dalam repository GitHub karena ukuran file. Sebagai gantinya, data yang digunakan untuk proses analisis telah dibagi menjadi data training (P1) dan testing (P2).
+
+Link Drive Dataset Training dan Testing: https://drive.google.com/drive/folders/1lBJAyotkfxHmo5INhczSLUQau3qvhtU7?usp=sharing 
 
 Dataset tambahan: category_tree.csv
-
-Link dataset: 
 
 
 **Isi Repository**
